@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volvo EX30</title>
+    <style>
+        ::selection{
+            background-color: #d3c8c3;
+        }
+
+        *{
+            color: #dadada;
+            margin-bottom: 1rem;
+            font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+        }
+
+        img{
+            border-radius: 1rem;
+        }
+
+        table{
+            border: 2px solid #dddddd;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            transition: all 250ms;
+            padding: .5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            text-align: center;
+        }
+
+        .core:hover{
+            background-color: #5d5d5d;
+        }
+
+        .plus:hover{
+            background-color: #d8d276;
+        }
+
+        .ultra:hover{
+            background: linear-gradient(#ba71ff,#5e41ff);
+        }
+
+        input{
+            transition: all 250ms;
+            background-color: #3c3c3c;
+            color: #acacac;
+            border: none;
+            outline: none;
+            padding: 0.75rem;
+            margin-top: 0.25rem;
+            border-radius: 0.25rem;
+        }
+    </style>
+</head>
+<body bgcolor="#1c1c1c">
+    <center>
+        <h1>Volvo EX30</h1>
+        <img src="imgs/auto.jpeg" alt="Auto" width="500">
+        <table border="1">
+            <tr>
+                <th>Modello</th>
+                <th>Prezzo</th>
+                <th>Alimentazione</th>
+            </tr>
+            <tr>
+                <td class="core">Core</td>
+                <td>37.650€</td>
+                <td>Elettrica</td>
+            </tr>
+            <tr>
+                <td class="plus">Plus</td>
+                <td>40.550€</td>
+                <td>Elettrica</td>
+            </tr>
+            <tr>
+                <td class="ultra">Ultra</td>
+                <td>49.650€</td>
+                <td>Elettrica</td>
+            </tr>
+        </table>
+    </center>
+    <p>Optionals</p>
+    <ul>
+        <li>Cerchi in lega</li>
+        <li>Spoiler sul tetto</li>
+        <li>Fari fendinebbia</li>
+    </ul>
+    <p>
+       Punti di forza:<br>La Volvo EX30 è un SUV elettrico compatto che combina un design minimalista e materiali sostenibili con prestazioni elevate e tecnologia digitale avanzata. Con dimensioni ridotte e prezzi competitivi, offre un’esperienza di guida confortevole e moderna, grazie anche all’integrazione del sistema Android Automotive e a un’ampia gamma di funzionalità pratiche e tecnologiche</p>
+    <a style="color: #f395ff;" href="https://www.volvocars.com/it/">Concessionario</a>
+    <br><br><br>
+    <form action="">
+        <label for="Nome Concessionario">Nome del concessionario visitato</label>
+        <br>
+        <input type="text">
+        <br>
+        <input type="checkbox">
+        <label>Acconsento al trattamento dei dati</label>
+        <br>
+        <label for="">Modello</label>
+        <br>
+        <input type="radio" name="Modello">Core
+        <br>
+        <input type="radio" name="Modello">Plus
+        <br>
+        <input type="radio" name="Modello">Ultra
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
