@@ -1,1 +1,54 @@
 
+*{
+    color: #fafafa;
+    cursor: default;
+}
+
+@keyframes Animation{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+
+    50%{
+        filter: hue-rotate(90deg);
+    }
+
+    100%{
+        filter: hue-rotate(0deg);
+    }
+}
+
+::selection{
+    background-color: #ada4ff25;
+}
+
+body{
+    background-color: #1c1c1c;
+}
+
+table{
+    border: 2px solid #c7c7c7;
+    border-radius: 0.75rem;
+    padding: 0.5rem;
+    background-color: #fafafa25;
+}
+
+td {
+    transition: all;
+    transition-duration: 250ms;
+    border: 1px solid #c7c7c7;
+    border-radius: 0.6rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.odd{
+    background-color:#d795dd;
+    animation: Animation infinite 8s;
+}
+
+td:hover{
+    background-color: rgb(197, 84, 84);
+}
