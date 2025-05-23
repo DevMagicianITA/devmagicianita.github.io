@@ -1,0 +1,19 @@
+@import url('/templates/main.css');
+
+.title {
+    position: absolute;
+    font-family: "Font A";
+    font-size: 60pt;
+    width: 100%;
+    text-align: center;
+    height: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, hwb(118 60% 5%), hwb(207 60% 5%));
+    margin-top: 10rem;
+}
+
+.link {
+    position: absolute;
+    top: 15rem;
+}

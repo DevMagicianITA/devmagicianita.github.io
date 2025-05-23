@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Font A";
+    src: url('../fonts/FontA.ttf');
+}
+
+@font-face {
+    font-family: "Font B";
+    src: url('../fonts/FontB.ttf');
+}
+
+* {
+    font-family: "Font B";
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    padding: 1rem;
+    text-align: center;
+}
+
+thead {
+    font-weight: bold;
+}
+
+::selection {
+    background-color: #c183ff35;
+}
+
+:root {
+    --accent-color: #8000ff;
+    --background-color: #222024;
+    --text-color: #fafafa;
+    --link-color: #ceb3e9;
+    --button-color: #3d3742;
+}
+
+.divider {
+    left: 5%;
+    width: 90%;
+    height: 2px;
+    background-color: var(--text-color);
+    border-radius: 10px;
+}
+
+.default-link {
+    color: var(--link-color);
+}

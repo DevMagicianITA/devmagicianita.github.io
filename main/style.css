@@ -1,0 +1,140 @@
+@import url('../templates/main.css');
+
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;    
+}
+
+.text {
+    position: relative;
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    height: text;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.title {
+    position: relative;
+    font-family: "Font A";
+    font-size: 60pt;
+    width: 100%;
+    text-align: center;
+    height: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, hwb(325 60% 5%), hwb(250 60% 5%));
+    margin-top: 1rem;
+}
+
+.divider-a {
+    position: absolute;
+    margin-top: 1rem;
+    width: 90%;
+    left: 5%;
+    top: 11rem;
+}
+
+.links {
+    position: relative;
+    top: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1em 0 0 1rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: transparent;
+    background-image: url('../icons/info.png');
+    cursor: pointer;
+    background-size: cover;
+    outline: none;
+    border: none;
+}
+
+.info-box {
+    transition: all 250ms;
+    position: absolute;
+    opacity: 0;
+    left: 2.5rem;
+    top: 0.5rem;
+    padding: 0.25rem 1rem;
+    border-radius: 5px;
+    background-color: var(--button-color);
+}
+
+.link {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.75rem 0;
+    background-color: var(--button-color);
+    text-decoration: none;
+}
+
+.page-link-card {
+    transition: all 250ms;
+    position: relative;
+    height: 10rem;
+    width: 10rem;
+    margin: 0 1rem;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.page-link-card:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.recipe {
+    background-image: url('../imgs/recipe.jpeg');
+    background-size: cover;
+}
+
+.table {
+    background-image: url('../imgs/table.jpeg');
+    background-size: cover;
+}
+
+.wireframe {
+    background-image: url('../imgs/wireframe.jpeg');
+    background-size: cover;
+}
+
+.iframe {
+    background-image: url('../imgs/iframe.jpeg');
+    background-size: cover;
+}
+
+.menu {
+    background-image: url('../imgs/menu.jpeg');
+    background-size: cover;
+}
+
+.bootstrap {
+    background-image: url('../imgs/bootstrap.jpeg');
+    background-size: cover;
+}
+
+.altervista {
+    background-image: url('../imgs/altervista.jpeg');
+    background-size: cover;
+}
+
+.divider-b {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: 27.5rem;
+}

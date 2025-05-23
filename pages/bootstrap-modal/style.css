@@ -1,0 +1,25 @@
+@import url('../../templates/main.css');
+
+* {
+    color: #3a3a3a;
+}
+
+.go-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: cover;
+    margin: 0.5rem 0 0 0.5rem;
+    background-color: transparent;
+    background-image: url('../../icons/go-back.png');
+    border: none;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

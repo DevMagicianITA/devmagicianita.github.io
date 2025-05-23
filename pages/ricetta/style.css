@@ -1,0 +1,100 @@
+@import url('../../templates/main.css');
+
+.go-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: cover;
+    margin: 0.5rem 0 0 0.5rem;
+    background-color: transparent;
+    background-image: url('../../icons/go-back.png');
+    border: none;
+    outline: none;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: 1rem 0;
+    font-family: "Font A";
+    font-size: xxx-large;
+    background-image: linear-gradient(to right, #ff73a4, #ffce73);
+    background-clip: text;
+    color: transparent;
+}
+
+.divider-a {
+    position: absolute;
+    top: 5rem;
+}
+
+.carbonara-image {
+    position: absolute;
+    left: 0;
+    top: 6rem;
+    margin: 1rem;
+    width: 30%;
+    height: 17.5rem;
+    background-size: cover;
+    border-radius: 25px;
+    border: solid 3px var(--text-color);
+    background-image: url('../../imgs/carbonara.jpg');
+}
+
+.ingredients-list {
+    position: absolute;
+    left: 35%;
+    top: 9rem;
+    font-size: large;
+}
+
+.info-table {
+    position: absolute;
+    top: 25rem;
+    left: 0;
+    margin: 1rem;
+}
+
+.head {
+    background-color: #ffb937;
+}
+
+.rows {
+    background-color: #ffce73;
+}
+
+.left-top-corner {
+    border-top-left-radius: 15px;
+}
+
+.right-top-corner {
+    border-top-right-radius: 15px;
+}
+
+.left-bottom-corner {
+    border-bottom-left-radius: 15px;
+}
+
+.right-bottom-corner {
+    border-bottom-right-radius: 15px;
+}
+
+.description {
+    position: absolute;
+    padding: 1rem;
+    background-color: var(--button-color);
+    margin: 1rem;
+    border-radius: 15px;
+    top: 32.5rem;
+    width: 35%;
+    left: 0;
+}
+
+.divider-b {
+    margin: 1rem 0;
+}

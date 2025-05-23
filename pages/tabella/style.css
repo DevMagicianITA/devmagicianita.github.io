@@ -1,0 +1,39 @@
+@import url('../../templates/main.css');
+
+.go-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-size: cover;
+    margin: 0.5rem 0 0 0.5rem;
+    background-color: transparent;
+    background-image: url('../../icons/go-back.png');
+    border: none;
+    outline: none;
+}
+
+.color-a {
+    background-color: #a64cda;
+}
+
+.color-b {
+    background-color: #644cda;
+}
+
+.table-element {
+    position: relative;
+    top: 5rem;
+}
+
+td {
+    transition: all 250ms;
+}
+
+td:hover {
+    transform: scale(1.15);
+    filter: brightness(1.5);
+    border-radius: 15px;
+    cursor: pointer;
+}
